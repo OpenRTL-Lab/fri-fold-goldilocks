@@ -1,0 +1,24 @@
+# OpenRTL-Header-Begin
+# OpenRTL — Open-source hardware accelerators.
+# Organization: https://github.com/OpenRTL-Lab
+# Website: https://openrtl.top/
+#
+# Project: Goldilocks FRI Folding Hardware Accelerator
+# Chisel hardware for binary FRI evaluation-table folding over the Goldilocks field.
+# Repository: https://github.com/OpenRTL-Lab/fri-fold-goldilocks
+# File: .gitignore
+#
+# SPDX-FileCopyrightText: 2026 Goldilocks FRI Fold contributors
+# Copyright applies to original project contributions only.
+# SPDX-License-Identifier: MIT
+# See LICENSE and applicable third-party notices.
+# OpenRTL-Header-End
+
+/.private/
+/build/
+/out/
+/.cache/
+__pycache__/
+*.pyc
+*.vcd
+*.fst
